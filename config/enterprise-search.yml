@@ -1,0 +1,6 @@
+# config/enterprise-search.yml
+elasticsearch.host: http://elasticsearch:9200
+allow_es_settings_modification: true
+secret_management.encryption_keys: [7131cc2e08a1dc681cf36674c7dde1c1c30ae1cd62fe2f982884486c8a5896ea]
+secret_session_key: b4fdfc20bfa0f76a90184171882bfd1031270599661f885406b42e1d5eb28a1cd6fca2d078bd4b203084ae6e7d04cc5c32e0352e0d6a795bcb9c902be61ebdfc
+ent_search.auth.source: elasticsearch-native
